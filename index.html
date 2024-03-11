@@ -11,9 +11,20 @@
   
  <div id="app">
 
-  <h1> {{messaggio}} </h1>
-  <input type="text" class="form-control" v-model="messaggio">
+    <h1> {{messaggio}} </h1>
+    <input type="text" class="form-control" v-model="messaggio">
+    <input type="text" class="form-control" v-model="miaClasseCsss">
+
+    <h1 :class="miaClasseCss"> {{messaggio}} </h1>
+
+    <h3> {{altromessaggio}} {{nome}} {{eta}} </h3>
+    
+    <div v-html="testoHtml" > 
+
+    </div>
+
  </div>
+
 
   <script src="script.js"></script>
 </body>

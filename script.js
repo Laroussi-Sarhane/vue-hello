@@ -7,7 +7,12 @@ createApp({
   // questo oggetto contterra tutte le nostre variabili che in realta sono proprieta dell oggetto data 
   data(){
     return{
-      messaggio: 'ciao vue vediamo cosa succede '
+      messaggio: 'ciao vue vediamo cosa succede ',
+      altromessaggio: 'non so che scrivere',
+      nome: 'laru',
+      eta: '23',
+      testoHtml: `<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quod fugit facere repellendus tempore enim sit dolorum modi recusandae dicta. Dignissimos porro quisquam totam omnis voluptatum quos quam odio veritatis?</p>`,
+      miaClasseCss: 'verde',
 
     }
   }
