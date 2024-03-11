@@ -13,6 +13,8 @@ createApp({
       eta: '23',
       testoHtml: `<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quod fugit facere repellendus tempore enim sit dolorum modi recusandae dicta. Dignissimos porro quisquam totam omnis voluptatum quos quam odio veritatis?</p>`,
       miaClasseCss: 'verde',
+      
+      
 
     }
   }
