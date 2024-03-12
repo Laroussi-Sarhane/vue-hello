@@ -13,7 +13,7 @@
 
     <h1> {{messaggio}} </h1>
     <input type="text" class="form-control" v-model="messaggio">
-    <input type="text" class="form-control" v-model="miaClasseCsss">
+    <input type="text" class="form-control" v-model="miaClasseCss">
 
     <h1 :class="miaClasseCss"> {{messaggio}} </h1>
 
@@ -22,8 +22,10 @@
     <div v-html="testoHtml" > 
 
     </div>
+     <img :src="imgPath" alt="">
+    <!-- <a :href="link" target="_blank"> clicca qui {{nome}} </a> -->
 
-    <a :href="link" target="_blank"> clicca qui {{nome}} </a>
+    <button @click ="incrementoContatore"> {{contatore}} </button>
 
  </div>
 
