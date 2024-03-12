@@ -15,7 +15,9 @@ createApp({
       eta: '23',
       testoHtml: `<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quod fugit facere repellendus tempore enim sit dolorum modi recusandae dicta. Dignissimos porro quisquam totam omnis voluptatum quos quam odio veritatis?</p>`,
       miaClasseCss: 'verde',
-      contatore: 0 
+      contatore: 0 ,
+      isGrassetto: 'false',
+      imgPath: 'https://t3.ftcdn.net/jpg/00/27/57/96/360_F_27579652_tM7V4fZBBw8RLmZo0Bi8WhtO2EosTRFD.jpg',
       
       
 
